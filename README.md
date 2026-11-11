@@ -4,6 +4,9 @@
 
 **Accepted at NeurIPS 2026.**
 
+**Paper:** <https://arxiv.org/abs/2611.10626> <br>
+**NeurIPS:** <https://neurips.cc/virtual/2026/loc/sydney/poster/138889>
+
 Multi-turn video Q&A benchmark for endoscopy and colonoscopy. This repository
 ships an end-to-end evaluation pipeline that runs a configurable set of
 multi-modal LLMs (local HuggingFace checkpoints + API models) against the
@@ -101,6 +104,9 @@ distribution/
   the wheel index URL for your CUDA version.
 
 ## Step 1 — Download the dataset
+
+- **Harvard Dataverse:** <https://doi.org/10.7910/DVN/HRHPEX>
+- **HuggingFace:** <https://huggingface.co/datasets/Abhi25t/EndoSCOP-V/>
 
 Download `dataverse_files.zip` from the EndoSCOP-V record on Harvard
 Dataverse and place it at `data/dataverse_files.zip`. The path is
